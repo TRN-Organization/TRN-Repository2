@@ -17,4 +17,25 @@ public class InDashDisplayTest  extends TestCase {
       assertEquals("audioDisplay", audio.displayId());
   }
   
+  public void testPhoneDisplayData() {
+      PhoneDisplay phone = new PhoneDisplay ();
+      assertEquals("Phone Display", phone.displayData());
+  }
+
+  public void testPhoneDisplayId() {
+      PhoneDisplay phone = new PhoneDisplay ();
+      assertEquals("phoneDisplay", phone.displayId());
+  }
+
+  public void testVehSafetyDisplayData() {
+      VehSafetyDisplay veh = new VehSafetyDisplay ();
+      assertEquals("VehSafety Display", veh.displayData());
+
+  }
+
+  public void testVehSafetyDisplayId() {
+      VehSafetyDisplay veh = new VehSafetyDisplay ();
+      assertEquals("vehSafetyDisplay", veh.displayId());
+  }
+
 }
