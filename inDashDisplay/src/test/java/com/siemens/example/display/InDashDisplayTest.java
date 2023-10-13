@@ -9,7 +9,7 @@ public class InDashDisplayTest  extends TestCase {
 
   public void testAudioDisplayData() {
       AudioDisplay audio = new AudioDisplay ();
-      assertEquals("Audio Displays", audio.displayData());
+      assertEquals("Audio Display", audio.displayData());
   }
 
   public void testAudioDisplayId() {
